@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/testoNome"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parola"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:background="@color/grigio"
+        />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="1"
+        android:layout_gravity="center"
+        >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/testo"
+        android:text="scrivi una lettera o una parola"
+        android:background="@color/red"
+        android:textAlignment="center"
+        />
+
+        <Button
+            android:layout_height="100px"
+            android:layout_width="200px"
+            android:id="@+id/seleziona"
+            />
+
+    </GridLayout>
+
+</LinearLayout>
